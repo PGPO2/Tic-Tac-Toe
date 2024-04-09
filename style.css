@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+h1{
+    color: aqua;
+}
+p{
+    color: aqua;
+}
+.parent{
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.all{
+    background-color: gray;
+    width: 80px;
+    height: 80px;
+}
+.hasbeenclickedOdd{
+    background-color: rgb(43, 226, 55);
+}
+.hasbeenclickedEven{
+    background-color: blueviolet;
+}
+.winnerDisplay{
+    background-color: burlywood;
+}
+.winnerDisplay p{
+    color: cadetblue;
+}
